@@ -1,38 +1,77 @@
-# Advanced Python: Working with Databases
-This is the repository for the LinkedIn Learning course Advanced Python: Working with Databases. The full course is available from [LinkedIn Learning][lil-course-url].
+# Advanced Python: Working with Databases 🐍💾📚
 
-![Advanced Python: Working with Databases][lil-thumbnail-url] 
+![Working with Databases](assets/pexels-panumas-nikhomkhai-1148820.jpg)
 
-To create functional and useful Python applications, you need a database. Databases allow you to store data from user sessions, track inventory, make recommendations, and more.  However, Python is compatible with many options: SQLite, MySQL, and PostgreSQL, among others. Selecting the right database is a skill that advanced developers are expected to master. This course provides an excellent primer, comparing the different types of databases that can be connected through the Python Database API. Instructor Kathryn Hodge teaches the differences between SQLite, MySQL, and PostgreSQL and shows how to use the ORM tool SQLAlchemy to query a database. The final chapters put your knowledge to practical use in two hands-on projects: developing a full-stack application with Python, PostgreSQL, and Flask and creating a data analysis app with pandas and Jupyter Notebook. By the end, you should feel comfortable creating and using databases and be able to decide which Python database is right for you.
+### Table of Contents
+1. [Course Overview](#course-overview)
+2. [Course Modules](#course-modules)
+3. [Progress](#progress)
+4. [Running Locally](#running-locally)
+5. [Credits](#credits)
 
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+## Course Overview
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
-
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
-
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
-
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+Advanced developers are expected to master database selections, and this course provides an excellent comparison of different types of databases that Python can interact with—SQLite, MySQL, and PostgreSQL. Taught by Kathryn Hodge, this course takes you through the essentials of setting up, querying, and optimizing databases in Python.
 
 
-### Instructor
+### Course Modules
 
+#### Introduction to Databases in Python
+- Database definition and types
+- Python Database API
+
+#### Using SQLite in Python
+- Creating SQLite database
+- Adding multiple records
+- Filtering records
+- SQLAlchemy
+- SQL expression language
+- Chapter Challenge
+
+#### Using MySQL in Python
+- Creating MySQL database
+- Building Tables
+- Inserting Data
+- Connecting a Python app to MySQL
+- Encapsulating database operations
+- Chapter Challenge
+
+#### Using PostgreSQL in Python
+- Creating PostgreSQL database
+- Building Tables
+- Inserting Data
+- Interacting with Postgres using Python
+- Encapsulating database operations
+- Chapter Challenge
+
+
+## Progress
+
+- [x] Introduction to Databases in Python
+- [x] Using SQLite in Python
+- [ ] Using MySQL in Python
+- [ ] Using PostgreSQL in Python
+
+## Running Locally
+
+See the "Running Locally" section in the [original repo's README](https://www.linkedin.com/learning/advanced-python-working-with-databases-22307421?dApp=59033956&leis=LAA) for steps on how to run the code locally.
+
+## Credits
+ 
+This repository is a personal fork based on the LinkedIn Learning course 'Advanced Python: Working with Databases' by Kathryn Hodge. The original course and repository can be found [here](https://www.linkedin.com/learning/advanced-python-working-with-databases-22307421?dApp=59033956&leis=LAA).
+
+### Original Instructor
 Kathryn Hodge 
                             
 Software Engineer
 
+![LinkedIn Learning codespaces](assets/linkd-img.jpeg)
                             
-
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/kathryn-hodge).
+I highly recommend checking out the full course for a deep dive into advanced Python database interactions, as well as Kathryn Hodge's other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/kathryn-hodge).
 
 [lil-course-url]: https://www.linkedin.com/learning/advanced-python-working-with-databases-22307421?dApp=59033956&leis=LAA
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGxhz_OMvM_mQ/learning-public-crop_675_1200/0/1683668063867?e=2147483647&v=beta&t=frT7osblpohhLDjZqRYyklw6-Fay7Mgtr5hsv0QvLuc
+
+
+
+
