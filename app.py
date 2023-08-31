@@ -3,13 +3,17 @@ import sqlite3
 connection = sqlite3.connect('movies.db')
 cursor = connection.cursor()
 
-famousFilms = [('Pulp Fiction', 'Quentin Tarantino', 1994),
-('Back to the Future', 'Robert Zemeckis', 1985),
-('Moonrise Kingdom', 'Wes Anderson', 2012)]
+funny_films = [('The Big Lebowski', 'Coen Brothers', '1998'),
+('Rush Hour', 'Brett Ratner', '1998'),
+('The Hangover', 'Todd Phillips', '2009'),
+('Ted', 'Seth MacFarlane', '2012')]
 
-cursor.executemany('INSERT INTO Movies VALUES (?,?,?)', famousFilms)
+cursor.executemany('''INSERT INTO movies(title, director, year)
+ VALUES(?,?,?)''', funny_films)
 
-cursor.execute("SELECT * FROM Movies")
+cursor.execute('''SELECT * FROM movies''')
+
+
 
 print(cursor.fetchall())
 
