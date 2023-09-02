@@ -6,7 +6,7 @@ def connect(db_name):
   try:
     return mysql.connect(host='localhost', 
                          user='root', 
-                         password='Doodijojo098/', 
+                         password='new_password', 
                          database=db_name
                          )
   except Error as e:
