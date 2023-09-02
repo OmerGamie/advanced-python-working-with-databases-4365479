@@ -49,7 +49,7 @@ Advanced developers are expected to master database selections, and this course 
 
 - [x] Introduction to Databases in Python
 - [x] Using SQLite in Python
-- [ ] Using MySQL in Python
+- [x] Using MySQL in Python
 - [ ] Using PostgreSQL in Python
 
 ## Running Locally
